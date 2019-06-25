@@ -1,0 +1,47 @@
+body {
+  cursor: url('circle-shape-outline.png'), auto;
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+  margin: 12px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.form {
+  text-align: center;
+  margin: 40vh auto 0 auto;
+
+  &__label {
+    display: block;
+    font-size: 2rem;
+  }
+
+  &__input-name {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid black;
+    color: blue;
+    display: block;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 20px auto 20px auto;
+    text-align: center;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__input-submit {
+    background-color: white;
+    border: none;
+    color: black;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
